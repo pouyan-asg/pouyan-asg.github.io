@@ -10,7 +10,7 @@ name: Pouyan Asgharian
 title: PhD student of Robotics @ IntRoLab
 email: pouyan.asgharian@usherbrooke.ca
 # email_title: Email (Email title override)
-phone: 8195806102
+#phone: 8195806102
 # phone_title: Phone (Phone title override)
 website: www.sherbotics.com
 # website_title: Web (Website title override)
@@ -21,14 +21,14 @@ darkmode: false
 # Social links
 twitter_username: MrElectic
 github_username:  pouyan-asg
-stackoverflow_username: ""
-dribbble_username: 
+#stackoverflow_username: ""
+#dribbble_username: 
 facebook_username: pouyan.asgharian
-flickr_username: 
+#flickr_username: 
 instagram_username: mr.electic
 linkedin_username: pouyan-asgharian
-xing_username: 
-pinterest_username: 
+#xing_username: 
+#pinterest_username: 
 youtube_username: pouyanasgharian
 orcid_username: 0000-0003-2993-8409
 googlescholar_username: XKebYqUAAAAJ
@@ -50,7 +50,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: https://drive.google.com/file/d/1h-e6EbfumvwEiueeEkMAdKIWM67SggA5/view?usp=sharing
+about_profile_image: modern-resume-theme/images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a PhD student of Robotics at IntRoLab of the University of Sherbrooke (UdeS). My research areas relate to learning-based socially assistive robots (SARs) for aged people and human-robot interaction. I am interested in using efficient approaches for teaching robots to have intelligent machines as caregivers.
 
