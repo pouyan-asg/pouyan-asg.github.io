@@ -50,7 +50,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: modern-resume-theme/images/profile.jpg
+about_profile_image: <img src="https://drive.google.com/file/d/1h-e6EbfumvwEiueeEkMAdKIWM67SggA5/view?usp=sharing" >
 about_content: | # this will include new lines to allow paragraphs
   I am a PhD student of Robotics at IntRoLab of the University of Sherbrooke (UdeS). My research areas relate to learning-based socially assistive robots (SARs) for aged people and human-robot interaction. I am interested in using efficient approaches for teaching robots to have intelligent machines as caregivers.
 
