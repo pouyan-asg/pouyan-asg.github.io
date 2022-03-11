@@ -52,7 +52,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/1640622631115.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  I am a PhD student of Robotics at IntRoLab of the University of Sherbrooke (UdeS). My research areas relate to learning-based socially assistive robots (SARs) for aged people and human-robot interaction. I am interested in using efficient approaches for teaching robots to have intelligent machines as caregivers.
+  I am a PhD student of Robotics at the University of Sherbrooke (UdeS). My research areas relate to learning-based socially assistive robots (SARs) for aged people and human-robot interaction. I am interested in using efficient approaches for teaching robots to have intelligent machines as caregivers. Also, I am a member of IntRoLab at the Interdisciplinary Institute for Technological Innovation (3IT), working under the supervision of Dr <a href="http://francoisferland.com" target="_blank">François Ferland</a>.
 
 content:
   - title: Projects # Title for the section
