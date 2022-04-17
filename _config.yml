@@ -55,6 +55,17 @@ about_content: | # this will include new lines to allow paragraphs
   I am a PhD student of Robotics at the University of Sherbrooke (UdeS). My research areas relate to learning-based socially assistive robots (SARs) for aged people and human-robot interaction. I am interested in using efficient approaches for teaching robots to have intelligent machines as caregivers. Also, I am a member of IntRoLab at the Interdisciplinary Institute for Technological Innovation (3IT), working under the supervision of Dr <a href="http://francoisferland.com" target="_blank">François Ferland</a>.
 
 content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Université de Sherbrooke
+        sub_title: Robotics
+        caption: 2021 - present
+        quote: >
+          Research Area: service robots, robot learning, human-robot interaction
+        description: | # this will include new lines to allow paragraphs
+          
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -87,23 +98,10 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+  - title: Other
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      To be completed...
 
 # Footer
 footer_show_references: true
