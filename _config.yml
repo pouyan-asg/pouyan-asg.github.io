@@ -6,7 +6,7 @@ title: Pouyan Asgharian # the website title (if blank, full name will be used in
 first_name: Pouyan
 middle_name: 
 last_name: Asgharian
-email: suraj_anand@brown.edu
+email: pouyan.asgharian@usherbrooke.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My personal website and blog.
 footer_text: >
@@ -14,7 +14,7 @@ footer_text: >
 keywords:  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: logo.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: pouyan.jpeg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: pouyan-asg.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -65,17 +65,17 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: surajk610 # your GitHub user name
+github_username: pouyan-asg # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: surajk610 # your X handle
+x_username: MrElectic # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: suraj-anand # your LinkedIn user name
+linkedin_username: pouyan-asgharian # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: citations?user=XKebYqUAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
-medium_username: # your Medium username
+medium_username: pouyan-asg # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
@@ -94,9 +94,9 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: # your instagram id
+instagram_id: mr.electic # your instagram id
 facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: pouyanasgharian # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
@@ -117,8 +117,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: suraj-anand # blog_name will be displayed in your blog page
-blog_description: my personal blog
+blog_name: Mr Electic # blog_name will be displayed in your blog page
+blog_description: Here, I share my personal perspectives on AI and Robotics
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -269,8 +269,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Anand]
-  first_name: [Suraj]
+  last_name: [Asgharian]
+  first_name: [Pouyan]
 
   style: apa
   locale: en
