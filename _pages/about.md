@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Applied Mathematics + Computer Science @ <a href='https://www.brown.edu/'>Brown</a>
+subtitle: 
 
 profile:
   align: right
