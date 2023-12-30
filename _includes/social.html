@@ -1,6 +1,8 @@
+            {% comment %}
             {%- if site.email -%}
             <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
             {% endif %}
+            {% endcomment %}
             {%- if site.telegram_username -%}
             <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
             {% endif %}
@@ -42,9 +44,6 @@
             {% endif %}
             {%- if site.mastodon_username -%}
             <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
-            {% endif %}
-            {%- if site.medium_username -%}
-            <a href="https://medium.com/@{{ site.medium_username }}" title="Medium"><i class="fa-brands fa-medium"></i></a>
             {% endif %}
             {%- if site.quora_username -%}
             <a href="https://www.quora.com/profile/{{ site.quora_username }}" title="Quora"><i class="fa-brands fa-quora"></i></a>
@@ -108,6 +107,15 @@
             {% endif %}
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
+            {% endif %}
+            {%- if site.medium_username -%}
+            <a href="https://medium.com/@{{ site.medium_username }}" title="Medium"><i class="fa-brands fa-medium"></i></a>
+            {% endif %}
+            {%- if site.robotik_podcast -%}
+            <a href="https://www.robotik-podcast.website/" title="Robo Tik podcast"><i class="fa-solid fa-podcast"></i></a>
+            {% endif %}
+            {%- if site.mentorship -%}
+            <a href="https://www.mentspot.com/users/pouyan" title="Volunteer Mentorship"><i class="fa-solid fa-people-arrows"></i></a>
             {% endif %}
             {%- if site.wechat_qr -%}
             <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin"></i></a>
