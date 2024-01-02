@@ -2,19 +2,19 @@
   type: map
   contents:
     - name: Full Name
-      value: Suraj Anand
+      value: Pouyan Asgharian
     - name: Languages
-      value: English (Spanish, Hindi)
+      value: English 
 
 - title: Education
   type: time_table
   contents:
     - title: Master of Science
-      institution: Brown University, Providence, RI
+      institution: X University, Providence, RI
       graduation year: Expected 2024
 
     - title: Bachelor of Science
-      institution: Brown University, Providence, RI
+      institution: Y University, Providence, RI
       graduation year: Expected 2024
       
 - title: Experience
