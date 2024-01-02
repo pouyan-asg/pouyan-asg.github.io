@@ -9,7 +9,7 @@ This is where I plan to write some of my thoughts as well as talk about my resea
 - [ ] change about section
 - [ ] add selected publication in about
 - [ ] add latested blog post in about page
-- [ ] complete publication list
+- [x] complete publication list
 - [ ] if possible add image for publicatins
 - [ ] add blog page
 - [ ] link medium posts in blog page
