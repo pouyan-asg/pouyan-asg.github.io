@@ -7,8 +7,8 @@ This is where I plan to write some of my thoughts as well as talk about my resea
 
 - [x] build on top of Al-Folio
 - [ ] change about section
-- [ ] add selected publication in about
-- [ ] add latested blog post in about page
+- [x] add selected publication in about
+- [x] add latested blog post in about page
 - [x] complete publication list
 - [ ] if possible add image for publicatins
 - [ ] add blog page
