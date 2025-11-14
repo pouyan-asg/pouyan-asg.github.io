@@ -6,12 +6,17 @@ This is where I plan to write some of my thoughts as well as talk about my resea
 ### Todo list
 
 - [x] build on top of Al-Folio
-- [ ] change about section
 - [x] add selected publication in about
 - [x] add latested blog post in about page
 - [x] complete publication list
+- [ ] connect domain to the website.
+- [ ] change profile photo
+- [ ] add a clear cool description
+- [ ] clean all social media images, descriptions and check their links
+- [ ] question: which social media should be kept on the website? delete the rest
+- [ ] create a blog page
+- [ ] add at least 3 last medium posts on blog page
+- [ ] check publication list (add everything you have)
 - [ ] if possible add image for publicatins
-- [ ] add blog page
-- [ ] link medium posts in blog page
-- [ ] complete project page
-- [ ] modify CV (need to be synch with PDF file)
+- [ ] modify project page
+- [ ] modify CV page (need to be synch with complete CV from past to present)
