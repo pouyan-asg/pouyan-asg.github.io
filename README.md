@@ -20,3 +20,7 @@ This is where I plan to write some of my thoughts as well as talk about my resea
 - [ ] if possible add image for publicatins
 - [ ] modify project page
 - [ ] modify CV page (need to be synch with complete CV from past to present)
+
+useful links:
+https://docs.google.com/spreadsheets/d/1JfUK4r3E_BALKNiD5QelcUqjLad_q9_8HWExX2BV4PQ/edit?gid=0#gid=0
+https://linktr.ee/pouyan_asgharian
