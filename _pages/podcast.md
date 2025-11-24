@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: podcast
 title: Podcast
 permalink: /pod/
-description: Here is my Robo Tik podcast.
+description: Robo Tik podcast
 nav: true
 nav_order: 5
 ---

@@ -1,0 +1,135 @@
+---
+layout: default
+---
+<!-- _layouts/podcast.html -->
+
+<div class="podcast-landing">
+
+  <!-- Inject the standard page header (title and description) -->
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    <!-- 1. Description Section (1 Paragraph) -->
+    <div class="row mb-5">
+      <div class="col-sm-12">
+        <h2 class="display-6" style="font-weight: 600;">A Persian podcast on AI and Robotics</h2>
+        <p class="lead">Robo Tik is your destination for deep, accessible conversations about the future of automation, ethical AI, and cutting-edge robotics research. Hosted by Pouyan Asgharian, the podcast aims to bridge the gap between complex academic concepts and the enthusiast community across the Persian-speaking world, providing expert analysis on the technologies reshaping our lives.</p>
+      </div>
+    </div>
+
+    <hr class="mt-4 mb-5">
+
+    <!-- 2. Latest Episode (Image & Embedded Player) -->
+    <h2 class="mb-4">Latest Episode</h2>
+    <div class="row align-items-center mb-5 p-3 rounded shadow-lg" style="background-color: #f8f9fa;">
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <!-- Image to show the last episode (Title and date removed as requested) -->
+        <img src="{{ '/assets/img/podcast.jpg' | relative_url }}" alt="Latest Episode Cover" class="rounded shadow img-fluid" style="max-width: 300px; border: 3px solid #333;">
+      </div>
+      <div class="col-md-8">
+        <h3 class="h4 mb-3">Listen Now</h3>
+        <!-- Placeholder for a real embedded player widget (Spotify, Anchor, etc.) -->
+        <!-- REPLACE THIS IFRAME WITH YOUR ACTUAL PLAYER CODE -->
+        <div class="embed-responsive" style="height: 205px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
+          <iframe src="https://player.rss.com/robo-tik/2318886?theme=dark&v=2&share=false&about=false" title="سی و هفتم: دنیای با سوپر هوش مصنوعی به چه شکلی خواهد بود؟" width="100%" height="202px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"><a href="https://rss.com/podcasts/robo-tik/2318886">سی و هفتم: دنیای با سوپر هوش مصنوعی به چه شکلی خواهد بود؟</a></iframe>
+        </div>
+        <!-- <p class="mt-3">
+          <a href="https://rss.com/podcasts/robo-tik/2318886/" class="btn btn-outline-primary btn-sm">View Full Description &rarr;</a>
+        </p> -->
+      </div>
+    </div>
+
+    <hr class="mt-5 mb-5">
+
+    <!-- 3 & 4. Platform Thumbnails & Links -->
+    <h2 class="mb-4 text-center">Listen On</h2>
+
+    <!-- PLATFORM THUMBNAILS (Modified to be a horizontal row without labels) -->
+    <div class="d-flex justify-content-center flex-wrap gap-5 mb-5">
+      <!-- Spotify -->
+      <!-- <div class="text-center"> -->
+      <div class="text-center mx-2 p-3">
+        <a href="https://open.spotify.com/show/2lHRjZES4E19H4gHKimMSI?si=bf9289f8ce714385&nd=1&dlsi=dd87e453e34a4bde" target="_blank" rel="noopener noreferrer" title="Spotify">
+          <i class="fab fa-spotify fa-5x" style="color: #1DB954;"></i>
+        </a>
+      </div>
+      <!-- Apple Podcasts -->
+      <div class="text-center mx-2 p-3">
+        <a href="https://podcasts.apple.com/us/podcast/robo-tik-%D8%B1%D9%88%D8%A8%D9%88%D8%AA%DB%8C%DA%A9/id1643766832" target="_blank" rel="noopener noreferrer" title="Apple Podcasts">
+          <i class="fab fa-apple fa-5x" style="color: #9933CC;"></i>
+        </a>
+      </div>
+      <!-- Castbox -->
+      <div class="text-center mx-2 p-3">
+        <a href="https://castbox.fm/channel/id5081188" target="_blank" rel="noopener noreferrer" title="Castbox">
+          <i class="fas fa-podcast fa-5x" style="color: #F87D07;"></i>
+        </a>
+      </div>
+      <!-- Link to All Platforms -->
+      <div class="text-center mx-2 p-3">
+        <a href="https://redl.ink/robotik/profile" target="_blank" rel="noopener noreferrer" title="All Links">
+          <i class="fas fa-link fa-5x" style="color: #343a40;"></i>
+        </a>
+      </div>
+    </div>
+
+    <h2 class="mb-4 text-center">Follow On</h2>
+        <div class="d-flex justify-content-center flex-wrap gap-5 mb-5">
+      <!-- YouTube -->
+      <div class="text-center mx-2 p-3">
+        <a href="https://www.youtube.com/pouyanasgharian" target="_blank" rel="noopener noreferrer" title="YouTube">
+          <i class="fab fa-youtube fa-5x" style="color: #FF0000;"></i>
+        </a>
+      </div>
+      <!-- Instagram -->
+      <div class="text-center mx-2 p-3">
+        <a href="https://www.instagram.com/robotik_podcast/" target="_blank" rel="noopener noreferrer" title="Instagram">
+          <i class="fab fa-instagram fa-5x" style="color: #E1306C;"></i>
+        </a>
+      </div>
+      <!-- Facebook -->
+      <div class="text-center mx-2 p-3">
+        <a href="https://www.facebook.com/robotik.podcast/" target="_blank" rel="noopener noreferrer" title="Facebook">
+          <i class="fab fa-facebook fa-5x" style="color: #4267B2;"></i>
+        </a>
+      </div>
+      <div class="text-center mx-2 p-3">
+        <a href="https://t.me/robotik_podcast" target="_blank" rel="noopener noreferrer" title="Telegram">
+          <i class="fab fa-telegram fa-5x" style="color: #01c2fd;"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Quick Access & Sponsorship Buttons Row -->
+    <div class="row mt-5 pt-3 justify-content-center">
+    <div class="col-md-8 text-center">
+        <h2 class="mb-4">Quick Access & Sponsorship</h2>
+        <div class="d-flex justify-content-center gap-4">
+        <a href="https://rss.com/podcasts/robo-tik/" class="btn btn-primary btn-lg shadow-lg rounded-3" style="width: 220px;" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-globe me-2" style="color: #ffffff;"></i> Visit Podcast Website
+        </a>
+        <a href="https://hamibash.com/RoboTik" class="btn btn-success btn-lg shadow-lg rounded-3" style="width: 220px;" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-heart me-2" style="color: #ffffff;"></i> Make a Donation
+        </a>
+        <a href="mailto:pouyan.asgharian@ieee.org?subject=Robo%20Tik%20Sponsorship%20Inquiry" class="btn btn-danger btn-lg shadow-lg rounded-3" style="width: 220px;">
+            <i class="fas fa-handshake me-2" style="color: #ffffff;"></i> Contact / Sponsorship
+        </a>
+        </div>
+    </div>
+    </div>
+  </article>
+
+</div>
+<script>
+  // Ensure Font Awesome is loaded for the social icons (al-folio usually has it)
+  if (!document.querySelector('link[href*="font-awesome"]')) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css';
+    document.head.appendChild(link);
+  }
+</script>

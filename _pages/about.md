@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Robotics & AI Specialist
+subtitle: Robotic Engineer
 
 profile:
   align: right
