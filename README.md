@@ -15,13 +15,17 @@ This is where I plan to write some of my thoughts as well as talk about my resea
 - [x] clean all social media images, descriptions, and check their links. 
 - [x] question: Which social media should be kept on the website? Delete the rest. 
 - [x] create a blog and podcast pages. 
-- [ ] add at least 3 last medium posts on the blog page. 
+- [x] add at least 3 last medium posts on the blog page. 
 - [x] check publication list (add everything you have). 
 - [x] add correct thumbnail for all publications. 
 - [ ] modify project page. 
 - [ ] modify CV page (need to be synced with the complete CV from past to present). 
-- [ ] add podcast links to the page. 
-- [ ] all social media should have the same picture and descriptions. 
+- [x] add podcast links to the page.
+- [x] make podcast links dark and change their style to be rounded.
+- [ ] all social media should have the same picture and descriptions.
+- [ ] modify Linktree page.
+- [ ] modify podcast all links page.
+- [x] add podcast logo.
 
 useful links:
 https://linktr.ee/pouyan_asgharian

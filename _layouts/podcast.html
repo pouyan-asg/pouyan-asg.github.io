@@ -12,21 +12,31 @@ layout: default
   </header>
 
   <article>
-    <!-- 1. Description Section (1 Paragraph) -->
-    <div class="row mb-5">
-      <div class="col-sm-12">
+    <div class="row mb-5 align-items-center">
+      
+      <!-- Logo Column (25% width on medium screens and up) -->
+      <!-- Added pe-4 (Padding End 4) to create space between this column and the next -->
+      <div class="col-md-3 text-center mb-4 mb-md-0 pe-4"> 
+        <!-- Image attributes updated to remove circle and shadow, and increased max-width -->
+        <img src="{{ '/assets/img/podcast_logo.png' | relative_url }}" 
+             alt="Robo Tik Podcast Logo" 
+             class="img-fluid" 
+             style="max-width: 200px; border: 3px solid #ddd;">
+      </div>
+
+      <!-- Text Column (75% width on medium screens and up) -->
+      <div class="col-md-9">
         <h2 class="display-6" style="font-weight: 600;">A Persian podcast on AI and Robotics</h2>
-        <p class="lead">Robo Tik is your destination for deep, accessible conversations about the future of automation, ethical AI, and cutting-edge robotics research. Hosted by Pouyan Asgharian, the podcast aims to bridge the gap between complex academic concepts and the enthusiast community across the Persian-speaking world, providing expert analysis on the technologies reshaping our lives.</p>
+        <p class="lead justify-text">Robo Tik is your destination for deep, accessible conversations about the future of automation, ethical AI, and cutting-edge robotics research. Hosted by Pouyan Asgharian, the podcast aims to bridge the gap between complex academic concepts and the enthusiast community across the Persian-speaking world, providing expert analysis on the technologies reshaping our lives.</p>
       </div>
     </div>
-
+    
     <hr class="mt-4 mb-5">
 
     <!-- 2. Latest Episode (Image & Embedded Player) -->
     <h2 class="mb-4">Latest Episode</h2>
     <div class="row align-items-center mb-5 p-3 rounded shadow-lg" style="background-color: #f8f9fa;">
       <div class="col-md-4 text-center mb-4 mb-md-0">
-        <!-- Image to show the last episode (Title and date removed as requested) -->
         <img src="{{ '/assets/img/podcast.jpg' | relative_url }}" alt="Latest Episode Cover" class="rounded shadow img-fluid" style="max-width: 300px; border: 3px solid #333;">
       </div>
       <div class="col-md-8">
@@ -107,15 +117,15 @@ layout: default
     <!-- Quick Access & Sponsorship Buttons Row -->
     <div class="row mt-5 pt-3 justify-content-center">
     <div class="col-md-8 text-center">
-        <h2 class="mb-4">Quick Access & Sponsorship</h2>
+        <h2 class="mb-4">Quick Access</h2>
         <div class="d-flex justify-content-center gap-4">
-        <a href="https://rss.com/podcasts/robo-tik/" class="btn btn-primary btn-lg shadow-lg rounded-3" style="width: 220px;" target="_blank" rel="noopener noreferrer">
+        <a href="https://rss.com/podcasts/robo-tik/" class="btn btn-dark btn-lg shadow-lg rounded-pill" style="width: 220px; text-transform: none !important;" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-globe me-2" style="color: #ffffff;"></i> Visit Podcast Website
         </a>
-        <a href="https://hamibash.com/RoboTik" class="btn btn-success btn-lg shadow-lg rounded-3" style="width: 220px;" target="_blank" rel="noopener noreferrer">
+        <a href="https://hamibash.com/RoboTik" class="btn btn-dark btn-lg shadow-lg rounded-pill" style="width: 220px; text-transform: none !important;" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-heart me-2" style="color: #ffffff;"></i> Make a Donation
         </a>
-        <a href="mailto:pouyan.asgharian@ieee.org?subject=Robo%20Tik%20Sponsorship%20Inquiry" class="btn btn-danger btn-lg shadow-lg rounded-3" style="width: 220px;">
+        <a href="mailto:pouyan.asgharian@ieee.org?subject=Robo%20Tik%20Sponsorship%20Inquiry" class="btn btn-dark btn-lg shadow-lg rounded-pill" style="width: 220px; text-transform: none !important;">
             <i class="fas fa-handshake me-2" style="color: #ffffff;"></i> Contact / Sponsorship
         </a>
         </div>
