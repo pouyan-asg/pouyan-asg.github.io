@@ -1,5 +1,10 @@
 /* assets/css/custom.scss */
-.page-about .post {
-  font-size: 1.2em;
-  max-width: 1000px;
+.center-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+.center-image img {
+  display: inline-block;
 }
