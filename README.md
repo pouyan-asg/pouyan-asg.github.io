@@ -23,8 +23,8 @@ This is where I plan to write some of my thoughts as well as talk about my resea
 - [x] add podcast links to the page.
 - [x] make podcast links dark and change their style to be rounded.
 - [ ] all social media should have the same picture and descriptions.
-- [ ] modify Linktree page.
-- [ ] modify podcast all links page.
+- [x] modify Linktree page.
+- [x] modify podcast all links page.
 - [x] add podcast logo.
 
 useful links:
