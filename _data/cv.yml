@@ -37,7 +37,6 @@
       department: VolKno
       year: 2022
 
-
 - title: Research
   type: time_table
   contents:
@@ -63,3 +62,245 @@
   type: list
   contents:
     - <u>Hobbies:</u> Reading, Surfing, Rock Climbing, Cooking
+
+# -----------------------------Templates----
+
+- title: Skills
+  type: list
+  contents:
+    - Python
+    - Machine Learning
+    - Robotics
+
+- title: Languages
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - Python
+        - C++
+    - title: Spoken
+      items:
+        - English
+        - Persian
+
+- title: Certifications
+  type: list_groups
+  contents:
+    - category: Programming
+      items:
+        - name: Python
+          level: Advanced
+          school: Coursera
+          time: 2022
+          link: https://coursera.org/certificate/xyz
+
+- title: Education
+  type: time_table
+  contents:
+    - year: 2022
+      title: PhD in Robotics
+      institution: University of Zurich
+      location: Zurich, Switzerland
+      department: Computer Science
+      maindescription: Thesis on robot learning.
+      description:
+        - Deep Learning for Robotics
+        - Published 3 papers
+
+- title: General Information
+  type: map
+  contents:
+    - name: Email
+      value: pouyan@example.com
+    - name: Website
+      value: pouyan.dev
+
+# ---------------real implementation ----------------
+
+- title: General Information
+  type: map
+  contents:
+    - name: Name
+      value: Pouyan Asgharian
+    - name: Emails
+      value: pouyan.asgharian@ieee.org
+    - name: 
+      value: pouyan.asgharian@usherbrooke.ca
+    - name: Location
+      value: Montreal, Canada
+
+- title: Education
+  type: time_table
+  contents:
+    - year: 2021
+      title: PhD in Robotics
+      institution: Université de Sherbrooke
+      location: Sherbrooke, Canada
+      # department: Department of Electrical and Computer Engineering
+      # maindescription: Thesis on robot learning.
+      # description:
+      #   - Deep Learning for Robotics
+      #   - Published 3 papers
+
+- title: A wards & Grants
+  type: list
+  contents:
+    - Recipient of Mitacs Business Strategy Internship (BSI) grant (x4) (2023-25)
+    - Scholarship recipient under the CoRoM program (CRSNG FONCER) (2023)
+    - Winner of 2 Minutes of Engineering competition - Université de Sherbrooke (2022)
+    - Awarded the Eureka Scholarship - Université de Sherbrooke (2021)
+    - Two-time Recipient of Iran National Elites Foundation Award (2017, 2019)
+    - Co-Authored Chapter in Iran Best Electrical Industry Book (2018)
+    - Ranked in the top 3 of all M.Sc. electrical engineering students - University of Zanjan (2016)
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: National Research Council (NRC), Canada
+      year: Jan. 2024-Feb. 2024
+      location: Montreal, Canada
+      maindescription: Part-time Volunteer Researcher
+      description: Served as a part-time volunteer researcher, focusing on electronic circuit design and robotic simulations for a collaborative cobotic drilling project.
+    - title: Iran National Elites Foundation
+      year: Sept. 2017-Aug. 2019
+      location: Tehran, Iran
+      maindescription: Full-Time Research Engineer
+      description: Focused on optimizing electrical circuits used in ship systems to reduce electromagnetic interference, improve cost-efficiency, and enhance reliability.
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Pfizer
+      year: April 2024-present
+      location: Montreal, Canada
+      # maindescription: Part-time Volunteer Researcher
+      description: Working on the automation and robotization of laboratory workflows using the Mecademic Meca500 robot. The project focuses on integrating AI-driven learning methods to develop an intuitive and adaptable robotic solution for lab processes.
+    - title: Acrylic Robotics
+      year: Sept.2022-Oct.2023
+      location: Montreal, Canada
+      # maindescription: Part-time Volunteer Researcher
+      description: Full-time robotics engineering intern at an art-tech startup. Responsibilities included process and product development, hands-on work with Meca500, Kinova Gen3 Lite, Gen3, and Link6 robotic arms, and participation in events, demos, and technical workshops.
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Lecturer, Mooj Institute of Higher Educations
+      year: Sept.2018-Sept.2019
+      location: Bandar Anzali, Iran
+      description: Taught undergraduate courses and labs across control systems and electronics domains. Courses Logic Electronics Lab, Electronics Lab, Industrial Control, Industrial Electronics, Power System Analysis, Single-phase and Special Purpose Motors, Electrical Machinery II
+    - title: Teaching Assistant, University of Zanjan
+      year: 2015, 2016
+      location: Zanjan, Iran
+      description: Teaching assistant for undergraduate and graduate-level courses. Courses Electrical Machinery I, Power Electronics
+
+- title: Conferences & Workshops
+  type: nested_list
+  contents:
+    - title: Summer Schools
+      items:
+        - Montreal Robotics Summer School (MRSS) - Mila, Montreal (2024)
+        - FRQS AI Summer School - Concordia University, Montreal (2023)
+        - INTER-REPAR Summer School - Université de Sherbrooke (2022)
+    - title: Presentations
+      items:
+        - Judge at RoboHacks Hackathon - McGill University, Montreal (2023)
+        - Presenter, 11th Power Electronics, Drive Systems, and Technologies Conference (PEDSTC), Tehran (2020)
+        - Presenter, 24th Iranian Conference on Electrical Engineering (ICEE), Shiraz (2016)
+        - Presenter, International Conference on New Research Achievements in Electrical and Computer Engineering, Tehran (2016)
+    - title: Attendance
+      items:
+        - Canadian Robotics Council (CRC) - Montreal (2023)
+        - CoRoM Summer Forum - ÉTS, Montreal (2023)
+        - 23rd & 24th International Conference on Human-Computer Interaction (HCI) - USA (2021, 2022)
+        - 4th, 5th & 6th IPM Advanced School on Computing & AI - Iran (2020-22)
+        - TransAIR Workshop on Cognitive Architectures for Robot Agents - University of Bremen (2021)
+        - Healthcare Robotics (HeRo) Summit - University of Toronto (2021)
+        - 31st International Power System Conference (PSC) - Iran (2016)
+        - 1st Asian Conference on Applied Electromagnetics and Wave Optics (ASEPE) - Iran (2012)
+
+- title: Leadership & Engagement
+  type: nested_list
+  contents:
+    - title: Academic Involvement & Service
+      items:
+        - Member, IEEE Robotics and Automation Society (since 2021)
+        - Member, IEEE Computer Society (since 2024)
+        - Member, Young Researchers and Elite Club of Iran (since 2017)
+        - Student board member, HCI International Conference (2021-2022)
+        - Member, Iran Electrical Electronics Engineers Association - Gilan Branch (2018-2020)
+        - Reviewer for peer-reviewed journals like IEEE Robotics and Automation Letters
+    - title: Mentorship & Outreach
+      items:
+        - Volunteer mentor, Mentspot (2022-present)
+        - Student mentor, Université de Sherbrooke (Fall 2023)
+        - Mentor, WiML Mentorship Program (Oct 2023-Mar 2024)
+    - title: Science Communication
+      items:
+        - Robo Tik podcast (2022-present) Persian-languag podcast on robotics and AI
+        - Sherbotics podcast (2021-2022) English-language podcast on robotics - collaboration with CFAK radio station
+    - title: Scientific Community Engagement
+      items:
+        - Head of Astronomy Society, Azarbaijan Shahid Madani University (2012-2013)
+        - Member of Ayaz Astronomical Society, Tabriz (2011-2015)
+
+- title: Certifications
+  type: list_groups
+  contents:
+    - category: name
+      items:
+        - name: Québec Scientific Entrepreneurship (QcSE) Program
+          # level: Advanced
+          school: V1 Studio
+          time: 2025
+          link: https://coursera.org/certificate/xyz
+    - category: name
+      items:
+        - name: Drone Pilot Certificate
+          level: Basic Operations
+          school: Transport Canada
+          time: 2021
+          link: https://coursera.org/certificate/xyz
+    - category: name2
+      items:
+        - name: Design and Manufacturing of LED Display Panels
+          level: GPA 98/100, 21 hours
+          school: Poul Gilan Complex (Iran) & ANCCP (Italy)
+          time: 2018
+          link: https://coursera.org/certificate/xyz
+    - category: name
+      items:
+        - name: Installation and Wiring of Electrical Circuits Inside Buildings
+          level: 126 hours
+          school: Iran Technical Vocational Training Organization
+          time: 2015
+          link: https://coursera.org/certificate/xyz
+    - category: name
+      items:
+        - name: Programming and Installation of PLC S7-300
+          level: 140 hours
+          school: Iran Technical Vocational Training Organization
+          time: 2014
+          link: https://coursera.org/certificate/xyz
+
+- title: Languages
+  type: map
+  contents:
+    - name: Persian
+      value: Native
+    - name: English
+      value: Fluent
+    - name: French
+      value: B1 (TEFAQ)
+
+- title: References
+  type: time_table
+  contents:
+    - year: 
+      title: François Ferland
+      institution: Department of Electrical and Computer Engineering, Université de Sherbrooke
+      department: francois.ferland@usherbrooke.ca
+    - year: 
+      title: Reza Noroozian
+      institution: Department of Electrical and Computer Engineering, University of Zanjan
+      department: noroozian@znu.ac.ir
