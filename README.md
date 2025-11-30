@@ -19,16 +19,16 @@ This is where I plan to write some of my thoughts as well as talk about my resea
 - [x] check publication list (add everything you have). 
 - [x] add correct thumbnail for all publications. 
 - [ ] modify project page. 
-- [ ] modify CV page (need to be synced with the complete CV from past to present). review all pdfs.
+- [x] modify CV page (need to be synced with the complete CV from past to present). review all pdfs.
 - [x] add podcast links to the page.
 - [x] make podcast links dark and change their style to be rounded.
 - [ ] all social media should have the same picture and descriptions.
 - [x] modify Linktree page.
 - [x] modify podcast all links page.
 - [x] add podcast logo.
-- [ ] add certificates file in CV page.
-- [ ] check CV page sections order.
-- [ ] add names for each certificate in CV page.
+- [x] add certificates file in CV page.
+- [x] check CV page sections order.
+- [x] add names for each certificate in CV page.
 
 
 useful links:

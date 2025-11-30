@@ -1,120 +1,120 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Pouyan Asgharian
-    - name: Languages
-      value: English 
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Pouyan Asgharian
+#     - name: Languages
+#       value: English 
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Master of Science
-      institution: X University, Providence, RI
-      graduation year: Expected 2024
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: Master of Science
+#       institution: X University, Providence, RI
+#       graduation year: Expected 2024
 
-    - title: Bachelor of Science
-      institution: Y University, Providence, RI
-      graduation year: Expected 2024
+#     - title: Bachelor of Science
+#       institution: Y University, Providence, RI
+#       graduation year: Expected 2024
       
-- title: Experience
-  type: time_table
-  contents:
-    - title: Teaching Assistant, Computational Linguistics (CS1460)
-      institution: Brown University
-      year: Fall 2023
-      description:
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Teaching Assistant, Computational Linguistics (CS1460)
+#       institution: Brown University
+#       year: Fall 2023
+#       description:
 
-    - title: Data Science Intern
-      department: Point72 Market Intelligence, Proprietary Research
-      year: Summer 2023
+#     - title: Data Science Intern
+#       department: Point72 Market Intelligence, Proprietary Research
+#       year: Summer 2023
 
-    - title: Machine Learning (NLP) Intern
-      department: Kaiser Permanente Medical Informatics
-      year: Summer 2022
+#     - title: Machine Learning (NLP) Intern
+#       department: Kaiser Permanente Medical Informatics
+#       year: Summer 2022
 
-    - title: Machine Learning Engineer Intern
-      department: VolKno
-      year: 2022
+#     - title: Machine Learning Engineer Intern
+#       department: VolKno
+#       year: 2022
 
-- title: Research
-  type: time_table
-  contents:
-    - title: Transformer Learning Dynamics
-      year: Fall 2023
-      description:
+# - title: Research
+#   type: time_table
+#   contents:
+#     - title: Transformer Learning Dynamics
+#       year: Fall 2023
+#       description:
 
-    - title: RLAIF for Pink Elephants
-      year: Fall 2023
-      description:
+#     - title: RLAIF for Pink Elephants
+#       year: Fall 2023
+#       description:
     
-    - title: Concept Removal/Counterfactual Algorithms
-      year: Spring 2023
-      description:
+#     - title: Concept Removal/Counterfactual Algorithms
+#       year: Spring 2023
+#       description:
 
-- title: Honors and Awards
-  type: list
-  contents:
-    - <u>Achievements:</u> Intel International Science Fair Finalist, 
-          AIME Qualifier (x2), LA Country Science Fair Overall Winner
+# - title: Honors and Awards
+#   type: list
+#   contents:
+#     - <u>Achievements:</u> Intel International Science Fair Finalist, 
+#           AIME Qualifier (x2), LA Country Science Fair Overall Winner
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Reading, Surfing, Rock Climbing, Cooking
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Reading, Surfing, Rock Climbing, Cooking
 
 # -----------------------------Templates----
 
-- title: Skills
-  type: list
-  contents:
-    - Python
-    - Machine Learning
-    - Robotics
+# - title: Skills
+#   type: list
+#   contents:
+#     - Python
+#     - Machine Learning
+#     - Robotics
 
-- title: Languages
-  type: nested_list
-  contents:
-    - title: Programming
-      items:
-        - Python
-        - C++
-    - title: Spoken
-      items:
-        - English
-        - Persian
+# - title: Languages
+#   type: nested_list
+#   contents:
+#     - title: Programming
+#       items:
+#         - Python
+#         - C++
+#     - title: Spoken
+#       items:
+#         - English
+#         - Persian
 
-- title: Certifications
-  type: list_groups
-  contents:
-    - category: Programming
-      items:
-        - name: Python
-          level: Advanced
-          school: Coursera
-          time: 2022
-          link: https://coursera.org/certificate/xyz
+# - title: Certifications
+#   type: list_groups
+#   contents:
+#     - category: Programming
+#       items:
+#         - name: Python
+#           level: Advanced
+#           school: Coursera
+#           time: 2022
+#           link: https://coursera.org/certificate/xyz
 
-- title: Education
-  type: time_table
-  contents:
-    - year: 2022
-      title: PhD in Robotics
-      institution: University of Zurich
-      location: Zurich, Switzerland
-      department: Computer Science
-      maindescription: Thesis on robot learning.
-      description:
-        - Deep Learning for Robotics
-        - Published 3 papers
+# - title: Education
+#   type: time_table
+#   contents:
+#     - year: 2022
+#       title: PhD in Robotics
+#       institution: University of Zurich
+#       location: Zurich, Switzerland
+#       department: Computer Science
+#       maindescription: Thesis on robot learning.
+#       description:
+#         - Deep Learning for Robotics
+#         - Published 3 papers
 
-- title: General Information
-  type: map
-  contents:
-    - name: Email
-      value: pouyan@example.com
-    - name: Website
-      value: pouyan.dev
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Email
+#       value: pouyan@example.com
+#     - name: Website
+#       value: pouyan.dev
 
 # ---------------real implementation ----------------
 
@@ -142,6 +142,14 @@
       # description:
       #   - Deep Learning for Robotics
       #   - Published 3 papers
+    # - year: 2016
+    #   title: M.Sc. in Electrical Engineering
+    #   institution: University of Zanjan
+    #   location: Zanjan, Iran
+    # - year: 2014
+    #   title: B.Sc. in Electrical Engineering
+    #   institution: Azarbaijan Shahid Madani University
+    #   location: Tabriz, Iran
 
 - title: A wards & Grants
   type: list
@@ -150,25 +158,11 @@
     - Scholarship recipient under the CoRoM program (CRSNG FONCER) (2023)
     - Winner of 2 Minutes of Engineering competition - Université de Sherbrooke (2022)
     - Awarded the Eureka Scholarship - Université de Sherbrooke (2021)
-    - Two-time Recipient of Iran National Elites Foundation Award (2017, 2019)
-    - Co-Authored Chapter in Iran Best Electrical Industry Book (2018)
+    - Recipient of two governmental awards from Iran's National Elites Foundation(2017, 2019)
+    - Co-Authored Chapter in Iran's Best Electrical Industry Book (2018)
     - Ranked in the top 3 of all M.Sc. electrical engineering students - University of Zanjan (2016)
 
 - title: Research Experience
-  type: time_table
-  contents:
-    - title: National Research Council (NRC), Canada
-      year: Jan. 2024-Feb. 2024
-      location: Montreal, Canada
-      maindescription: Part-time Volunteer Researcher
-      description: Served as a part-time volunteer researcher, focusing on electronic circuit design and robotic simulations for a collaborative cobotic drilling project.
-    - title: Iran National Elites Foundation
-      year: Sept. 2017-Aug. 2019
-      location: Tehran, Iran
-      maindescription: Full-Time Research Engineer
-      description: Focused on optimizing electrical circuits used in ship systems to reduce electromagnetic interference, improve cost-efficiency, and enhance reliability.
-
-- title: Professional Experience
   type: time_table
   contents:
     - title: Pfizer
@@ -176,11 +170,50 @@
       location: Montreal, Canada
       # maindescription: Part-time Volunteer Researcher
       description: Working on the automation and robotization of laboratory workflows using the Mecademic Meca500 robot. The project focuses on integrating AI-driven learning methods to develop an intuitive and adaptable robotic solution for lab processes.
+    - title: National Research Council (NRC), Canada
+      year: Jan.2024-Feb.2024
+      location: Montreal, Canada
+      maindescription: Part-time Volunteer Researcher
+      description: Served as a part-time volunteer researcher, focusing on electronic circuit design and robotic simulations for a collaborative cobotic drilling project.
+    - title: Iran National Elites Foundation
+      year: Sept.2017-Aug.2019
+      location: Tehran, Iran
+      maindescription: Full-Time Research Engineer
+      description: Worked full-time under a governmental research grant. The project was about proposing an optimal design for electrical circuits in ships to reduce electromagnetic noise, costs, and increase reliability.
+    - title: Master Dissertation
+      year: Sept.2014-Sept.2016
+      location: Zanjan, Iran
+      # maindescription: Electrical Engineer
+      description: The objective was to apply the Model Predictive Control (MPC) method to interface power electronics converters, aiming to increase efficiency and improve power quality ["Modeling and modern control of distributed generation systems based on microturbine and storage for intelligent operation of the distribution networks"].
+    - title: Member of TOSAN Surface Vehicle group
+      year: Apr.2012-Oct.2014
+      location: Tabriz, Iran
+      maindescription: Electrical Engineer
+      description: I contributed to the electronics and control parts of the Tosan surface vehicle, a student-based project financially supported by the university. Our efforts earned us nominations for several awards, including the admirable prize at the sixth national Harkat festival, Sharif University of Technology, Iran.
+    - title: Multi-output LED driver for balancing rectifier DC-link voltage
+      year: Sept.2013-Sept.2014
+      location: Tabriz, Iran
+      # maindescription: Electrical Engineer
+      description: The objective of this project was to design a reliable multi-output circuit capable of maintaining stable voltages across all branches. The circuit achieved stability at different voltage levels on all outputs while ensuring sinusoidal currents.
+
+- title: Professional Experience
+  type: time_table
+  contents:
     - title: Acrylic Robotics
       year: Sept.2022-Oct.2023
       location: Montreal, Canada
       # maindescription: Part-time Volunteer Researcher
       description: Full-time robotics engineering intern at an art-tech startup. Responsibilities included process and product development, hands-on work with Meca500, Kinova Gen3 Lite, Gen3, and Link6 robotic arms, and participation in events, demos, and technical workshops.
+    - title: Noavaran Sabz Farda (NSF) company
+      year: June 2020-Sept.2020
+      location: Rasht, Iran
+      # maindescription: Part-time Volunteer Researcher
+      description: I worked as an electrical engineer in the R&D department of this company, which is one of the leading manufacturers of security electric fences in Iran.
+    - title: Sayal Abzar Daghigh Mihan (SAM) company
+      year: Nov.2019-June 2020
+      location: Bandar Anzali
+      # maindescription: Part-time Volunteer Researcher
+      description: This company manufactures devices for the electrical analysis of water quality (chlorine, PH, conductivity, etc.) and it is one of the most renowned companies in Iran. I worked as an electrical engineer in the R&D department.
 
 - title: Teaching Experience
   type: time_table
@@ -193,6 +226,10 @@
       year: 2015, 2016
       location: Zanjan, Iran
       description: Teaching assistant for undergraduate and graduate-level courses. Courses Electrical Machinery I, Power Electronics
+    - title: Robotics and Astronomy teaching at Bu-Ali Sina student research centre
+      year: 2016
+      location: Bandar Anzali, Iran
+      # description: 
 
 - title: Conferences & Workshops
   type: nested_list
@@ -208,6 +245,7 @@
         - Presenter, 11th Power Electronics, Drive Systems, and Technologies Conference (PEDSTC), Tehran (2020)
         - Presenter, 24th Iranian Conference on Electrical Engineering (ICEE), Shiraz (2016)
         - Presenter, International Conference on New Research Achievements in Electrical and Computer Engineering, Tehran (2016)
+        - Presenter, National Astronomical Conference at Azarbaijan Shahid Madani University (2012)
     - title: Attendance
       items:
         - Canadian Robotics Council (CRC) - Montreal (2023)
@@ -218,6 +256,8 @@
         - Healthcare Robotics (HeRo) Summit - University of Toronto (2021)
         - 31st International Power System Conference (PSC) - Iran (2016)
         - 1st Asian Conference on Applied Electromagnetics and Wave Optics (ASEPE) - Iran (2012)
+        - Workshop about Learning of new moon's observation, North Star Scientific Research Institute - Iran (2012)
+        - Astrophotography workshop, Ayaz Astronomical Society - Iran (2011, 2012)
 
 - title: Leadership & Engagement
   type: nested_list
@@ -229,7 +269,15 @@
         - Member, Young Researchers and Elite Club of Iran (since 2017)
         - Student board member, HCI International Conference (2021-2022)
         - Member, Iran Electrical Electronics Engineers Association - Gilan Branch (2018-2020)
-        - Reviewer for peer-reviewed journals like IEEE Robotics and Automation Letters
+        - Member of IAENG (International Association of Engineers) (2018-2020)
+        - Editorial Board of American Journal of Electrical Power and Energy Systems (EPES) (2019 - 2020)
+        - Member of Iranian Solar Energy Scientific Society (2018-2019)
+        - Member of Iran's Energy Association, Gilan Branch (2016-2018)
+        - Member of reviewer committee at the second international conference on electrical engineering, Ardabil, Iran (2017)
+        - Head of Astronomy Society, Azarbaijan Shahid Madani University (2012-2013)
+        - Member of Ayaz Astronomical Society, Tabriz (2011-2015)
+        - Member of Astronomical Helix Magazine of Azarbaijan Shahid Madani University (2011-2013)
+        - Reviewer for peer-reviewed journals and conferences like IEEE Robotics and Automation Letters
     - title: Mentorship & Outreach
       items:
         - Volunteer mentor, Mentspot (2022-present)
@@ -239,49 +287,184 @@
       items:
         - Robo Tik podcast (2022-present) Persian-languag podcast on robotics and AI
         - Sherbotics podcast (2021-2022) English-language podcast on robotics - collaboration with CFAK radio station
-    - title: Scientific Community Engagement
-      items:
-        - Head of Astronomy Society, Azarbaijan Shahid Madani University (2012-2013)
-        - Member of Ayaz Astronomical Society, Tabriz (2011-2015)
+        - Course 'Zero to Hero of Scientific Paper Writing' in collaboration with Faranesh website (it is available on my YouTube channel)
+        - Founder of ElEcTic website (2014 - 2020) a Persian-language website on electronics and robotics topics
+    # - title: Scientific Community Engagement
+    #   items:
+
 
 - title: Certifications
   type: list_groups
   contents:
-    - category: name
+    - category: Other 
       items:
         - name: Québec Scientific Entrepreneurship (QcSE) Program
           # level: Advanced
           school: V1 Studio
           time: 2025
-          link: https://coursera.org/certificate/xyz
-    - category: name
+          link: https://drive.google.com/file/d/13lnmd60JeTuRvTcSbNuJ6_06XHQ3kf3f/view?usp=sharing
+    - category: Robotics
       items:
         - name: Drone Pilot Certificate
           level: Basic Operations
           school: Transport Canada
           time: 2021
-          link: https://coursera.org/certificate/xyz
-    - category: name2
+          link: https://drive.google.com/file/d/1wjQrrPNpWakms8sAz3N6jdPawD56Pnp-/view?usp=sharing
+    - category: Electronics
       items:
         - name: Design and Manufacturing of LED Display Panels
           level: GPA 98/100, 21 hours
           school: Poul Gilan Complex (Iran) & ANCCP (Italy)
           time: 2018
           link: https://coursera.org/certificate/xyz
-    - category: name
+    - category: Electronics
       items:
         - name: Installation and Wiring of Electrical Circuits Inside Buildings
           level: 126 hours
           school: Iran Technical Vocational Training Organization
           time: 2015
-          link: https://coursera.org/certificate/xyz
-    - category: name
+          link: https://drive.google.com/file/d/1yghCmNxW8u6YtoeLEGb_3WKmuS1DKx8S/view?usp=sharing
+    - category: Programming
       items:
         - name: Programming and Installation of PLC S7-300
           level: 140 hours
           school: Iran Technical Vocational Training Organization
           time: 2014
-          link: https://coursera.org/certificate/xyz
+          link: https://drive.google.com/file/d/16cwWNLMrJ7MrlUmqn3S76ZtwH5MEnb28/view?usp=sharing
+    - category: Electronics
+      items:
+        - name: Installation and Troubleshooting of Protective and Security Systems
+          level: 315 hours
+          school: Iran Technical Vocational Training Organization
+          time: 2014
+          link: https://drive.google.com/file/d/1JdIDIwinktFyc1uO0XrWtkvrVERCVqah/view?usp=sharing
+    - category: Robotics
+      items:
+        - name: Begin Robotics
+          level: 12 hours
+          school: University of Reading (UK)
+          time: 2019
+          link: https://drive.google.com/file/d/1JHc4LtzOUfw96iKMO_7WQZgYHvuFV5wH/view?usp=sharing
+    - category: Software
+      items:
+        - name: Tulip Essentials Certified
+          level: 
+          school: Tulip University
+          time: 2024
+          link: https://drive.google.com/file/d/1vy6e3cwswrzU_qPLoPgFGQPe4KkRUtaa/view?usp=sharing
+    - category: Programming
+      items:
+        - name: The Local LLM Crash Course
+          level: 
+          school: Udemy
+          time: 2024
+          link: https://drive.google.com/file/d/1CP-FInKZ_HjHDMnRP5ZVDq3nK95YplIR/view?usp=sharing
+    - category: Robotics
+      items:
+        - name: Industrial Robotics
+          level: 6 hours
+          school: Udemy
+          time: 2024
+          link: https://drive.google.com/file/d/1X-j0PHuBo3At1zHKM2zM7q00AtAmw4y-/view?usp=sharing
+    - category: AI
+      items:
+        - name: Introdu ction to Generative AI
+          level: 
+          school: Coursera
+          time: 2023
+          link: https://drive.google.com/file/d/15f6IlYdYH-h1Zz5CC0vnUiSLadN7f7wI/view?usp=sharing
+    - category: Programming
+      items:
+        - name: Machine Learning for Everyone
+          level: 
+          school: DataCamp
+          time: 2021
+          link: https://drive.google.com/file/d/1Yz9qCbrCiz0zgrVXwgVtwxUSRvtNmUv4/view?usp=sharing
+    - category: Programming
+      items:
+        - name: Intro to Machine Learning
+          level: 
+          school: Kaggle
+          time: 2022
+          link: https://drive.google.com/file/d/1VifcXAtMp5eVfAq7ZE7GOs0_k-VJc-Nr/view?usp=sharing
+    - category: Programming
+      items:
+        - name: Reinforcement Learning in Python
+          level: 
+          school: Udemy
+          time: 2021
+          link: https://drive.google.com/file/d/1POfQwfrF9Z5gRRn__4X6alOsw7nA38ym/view?usp=sharing
+    - category: Software
+      items:
+        - name: ROS 1
+          level: 
+          school: Udemy
+          time: 2021
+          link: https://drive.google.com/file/d/1mzZuvZwI4huMzWKiFWJ5hYIOkt1FnTSD/view?usp=sharing
+    - category: Software
+      items:
+        - name: ROS 1
+          level: 
+          school: Udemy
+          time: 2021
+          link: https://drive.google.com/file/d/12ZcR3o5tk4SDkwP3lXIEnZjXi56FTS1n/view?usp=sharing
+    - category: Other
+      items:
+        - name: Confidence and self esteem_Develop Confident Body Language
+          level: 
+          school: Udemy
+          time: 2024
+          link: https://drive.google.com/file/d/13gICeDDMVo9J_4RlkLPRG0uDMbgJW1_n/view?usp=sharing
+    - category: Other
+      items:
+        - name: 10 Ways to Stay Motivated While Job Hunting
+          level: 
+          school: Linkedin Learning
+          time: 2022
+          link: https://drive.google.com/file/d/1pMxIXwK06ATOy1324JWgt7FsD1O8BBKP/view?usp=sharing
+    
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python
+        - MATLAB
+        - C++
+        - C
+    - title: Robots
+      items:
+        - Kinova Gen3
+        - Kinova Gen3 lite
+        - Kinova Link6
+        - Universal Robots UR5
+        - Mecademic Meca500
+        - TIAGo PAL Robotics
+    - title: Software & Tools
+      items:
+        - ROS 1&2
+        - Gazebo, PyBullet, Robosuite, RoboDK, Webots
+        - ML and computer vision frameworks
+        - Simulink
+        - Pycharm, VS Code, Spyder
+        - PSCAD, PSAT, DIgSILENT Power Factory
+        - Fritzing, Proteus, BASCOM AVR, Codevision AVR
+        - AutoCAD electrical, FreeCAD
+        - LaTeX
+        - HD 2016, HDR, SWiSH Max
+    - title: Embedded Systems
+      items:
+        - Arduino
+        - Raspberry Pi
+        - ESP32
+        - AVR
+    - title: Soft Skills
+      items:
+        - Teamwork
+        - Adaptability
+        - Communication
+        - Problem Solving
 
 - title: Languages
   type: map
@@ -304,3 +487,7 @@
       title: Reza Noroozian
       institution: Department of Electrical and Computer Engineering, University of Zanjan
       department: noroozian@znu.ac.ir
+    # - year: 
+    #   title: Mohamad Reza Banaei
+    #   institution: Department of Electrical and Computer Engineering, Azarbaijan Shahid Madani University
+    #   department: m.banaei@azaruniv.ac.ir
