@@ -5,7 +5,7 @@ permalink: /proj/
 description: A collection of my projects.
 nav: true
 nav_order: 3
-display_categories: [fall 2023, spring 2023]
+display_categories: [spring 2014, fall 2023, spring 2024, summer 2024]
 horizontal: false
 ---
 
