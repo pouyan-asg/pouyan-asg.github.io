@@ -6,7 +6,7 @@ description: A collection of my projects (will be completed).
 nav: true
 nav_order: 3
 display_categories: [spring 2014, fall 2023, spring 2024, summer 2024]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
