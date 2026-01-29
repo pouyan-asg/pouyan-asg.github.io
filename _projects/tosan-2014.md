@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Tosan Autonomous Surface Vehicle (ASV)
-description: An undergraduate student project supported by university funding.
+title: Tosan Autonomous Surface Vehicle
+description: An undergraduate student project supported by university funding
 img: assets/img/projects/tosan1.png
 importance: 6
-category: spring 2014
+category: 2014
 ---
 
 ### Quick Summary
