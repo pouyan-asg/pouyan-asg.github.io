@@ -134,7 +134,7 @@
   type: time_table
   contents:
     - year: 2021
-      title: PhD in Robotics
+      title: PhD candidate in Robotics
       institution: Université de Sherbrooke
       location: Sherbrooke, Canada
       # department: Department of Electrical and Computer Engineering
@@ -151,7 +151,7 @@
     #   institution: Azarbaijan Shahid Madani University
     #   location: Tabriz, Iran
 
-- title: A wards & Grants
+- title: Awards & Grants
   type: list
   contents:
     - Recipient of Mitacs Business Strategy Internship (BSI) grant (x4) (2023-25)
@@ -162,19 +162,93 @@
     - Co-Authored Chapter in Iran's Best Electrical Industry Book (2018)
     - Ranked in the top 3 of all M.Sc. electrical engineering students - University of Zanjan (2016)
 
-- title: Research Experience
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Robotic Platforms
+      items:
+        - Mecademic Meca500
+        - Kinova (Gen3, Gen3 lite, Link6)
+        - Universal Robots UR5
+        - TIAGo PAL Robotics
+    - title: Programming Languages
+      items:
+        - Python
+        - C++
+        - C
+        - MATLAB
+    - title: Robotics Frameworks
+      items:
+        - ROS / ROS2
+        - MoveIt
+        - Gazebo | MuJoCo | PyBullet | Webots | RoboDK
+    - title: ML Tools & Libraries
+      items:
+        - PyTorch
+        - OpenCV
+        - TorchVision
+        - scikit-learn
+        - Optuna
+        - LangChain
+        - Ollama
+    - title: DevOps & Tools
+      items:
+        - VS Code | PyCharm | Spyder
+        - Linux (Ubuntu)
+        - Git
+        - Docker
+        - LaTeX
+    - title: Electronics & Control Software 
+      items:
+        - Simulink
+        - PSCAD | PSAT | DIgSILENT
+        - Fritzing | Proteus | BASCOM AVR | Codevision AVR
+        - FreeCAD, AutoCAD electrical
+        - HD 2016, HDR, SWiSH Max
+    - title: Embedded Systems
+      items:
+        - Arduino
+        - Raspberry Pi
+        - ESP32
+        - AVR
+    - title: Soft Skills
+      items:
+        - Technical Communication
+        - Team Collaboration
+        - Adaptability
+
+- title: Professional Experience
   type: time_table
   contents:
     - title: Pfizer
       year: April 2024-present
       location: Montreal, Canada
       # maindescription: Part-time Volunteer Researcher
-      description: Working on the automation and robotization of laboratory workflows using the Mecademic Meca500 robot. The project focuses on integrating AI-driven learning methods to develop an intuitive and adaptable robotic solution for lab processes.
+      description: Developing an automated laboratory workflow using the Mecademic Meca500 robotic arm, with a focus on reducing task-specific hard coding. Designed a human-in-the-loop robotic system combining vision language models (VLMs) and interactive imitation learning to enable intuitive teaching and adaptation of lab processes.
     - title: National Research Council (NRC), Canada
       year: Jan.2024-Feb.2024
       location: Montreal, Canada
       maindescription: Part-time Volunteer Researcher
-      description: Served as a part-time volunteer researcher, focusing on electronic circuit design and robotic simulations for a collaborative cobotic drilling project.
+      description: As a part-time volunteer researcher, contributed to electronic circuit design and robotic simulation for a collaborative cobotic drilling project.
+    - title: Acrylic Robotics
+      year: Sept.2022-Oct.2023
+      location: Montreal, Canada
+      # maindescription: Part-time Volunteer Researcher
+      description: Robotics engineering intern at an art-tech startup, contributing to the development and deployment of robotic systems for automated art production. Led hands-on integration and operation of Mecademic Meca500 and Kinova robotic arms, and supported live demos, exhibitions, and technical workshops.
+    - title: Noavaran Sabz Farda (NSF) company
+      year: June 2020-Sept.2020
+      location: Rasht, Iran
+      # maindescription: Part-time Volunteer Researcher
+      description: I worked as an electrical engineer in the R&D department of this company, which is one of the leading manufacturers of security electric fences in Iran.
+    - title: Sayal Abzar Daghigh Mihan (SAM) company
+      year: Nov.2019-June 2020
+      location: Bandar Anzali
+      # maindescription: Part-time Volunteer Researcher
+      description: This company manufactures devices for the electrical analysis of water quality (chlorine, PH, conductivity, etc.) and it is one of the most renowned companies in Iran. I worked as an electrical engineer in the R&D department.
+
+- title: Research Experience
+  type: time_table
+  contents:
     - title: Iran National Elites Foundation
       year: Sept.2017-Aug.2019
       location: Tehran, Iran
@@ -195,25 +269,6 @@
       location: Tabriz, Iran
       # maindescription: Electrical Engineer
       description: The objective of this project was to design a reliable multi-output circuit capable of maintaining stable voltages across all branches. The circuit achieved stability at different voltage levels on all outputs while ensuring sinusoidal currents.
-
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: Acrylic Robotics
-      year: Sept.2022-Oct.2023
-      location: Montreal, Canada
-      # maindescription: Part-time Volunteer Researcher
-      description: Full-time robotics engineering intern at an art-tech startup. Responsibilities included process and product development, hands-on work with Meca500, Kinova Gen3 Lite, Gen3, and Link6 robotic arms, and participation in events, demos, and technical workshops.
-    - title: Noavaran Sabz Farda (NSF) company
-      year: June 2020-Sept.2020
-      location: Rasht, Iran
-      # maindescription: Part-time Volunteer Researcher
-      description: I worked as an electrical engineer in the R&D department of this company, which is one of the leading manufacturers of security electric fences in Iran.
-    - title: Sayal Abzar Daghigh Mihan (SAM) company
-      year: Nov.2019-June 2020
-      location: Bandar Anzali
-      # maindescription: Part-time Volunteer Researcher
-      description: This company manufactures devices for the electrical analysis of water quality (chlorine, PH, conductivity, etc.) and it is one of the most renowned companies in Iran. I worked as an electrical engineer in the R&D department.
 
 - title: Teaching Experience
   type: time_table
@@ -281,12 +336,12 @@
     - title: Mentorship & Outreach
       items:
         - Volunteer mentor, Mentspot (2022-present)
-        - Student mentor, Université de Sherbrooke (Fall 2023)
+        - Student mentor, Université de Sherbrooke (Fall 2023, Fall 2025)
         - Mentor, WiML Mentorship Program (Oct 2023-Mar 2024)
     - title: Science Communication
       items:
-        - Robo Tik podcast (2022-present) Persian-languag podcast on robotics and AI
-        - Sherbotics podcast (2021-2022) English-language podcast on robotics - collaboration with CFAK radio station
+        - Robo Tik podcast (2022-present) Host of a Persian-language podcast about AI & Robotics.
+        - Sherbotics podcast (2021-2022) Previous Host of an English-language robotics podcast in collaboration with CFAK radio.
         - Course 'Zero to Hero of Scientific Paper Writing' in collaboration with Faranesh website (it is available on my YouTube channel)
         - Founder of ElEcTic website (2014 - 2020) a Persian-language website on electronics and robotics topics
     # - title: Scientific Community Engagement
@@ -422,49 +477,6 @@
           school: Linkedin Learning
           time: 2022
           link: https://drive.google.com/file/d/1pMxIXwK06ATOy1324JWgt7FsD1O8BBKP/view?usp=sharing
-    
-
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Programming Languages
-      items:
-        - Python
-        - MATLAB
-        - C++
-        - C
-    - title: Robots
-      items:
-        - Kinova Gen3
-        - Kinova Gen3 lite
-        - Kinova Link6
-        - Universal Robots UR5
-        - Mecademic Meca500
-        - TIAGo PAL Robotics
-    - title: Software & Tools
-      items:
-        - ROS 1&2
-        - Gazebo, PyBullet, Robosuite, RoboDK, Webots
-        - ML and computer vision frameworks
-        - Simulink
-        - Pycharm, VS Code, Spyder
-        - PSCAD, PSAT, DIgSILENT Power Factory
-        - Fritzing, Proteus, BASCOM AVR, Codevision AVR
-        - AutoCAD electrical, FreeCAD
-        - LaTeX
-        - HD 2016, HDR, SWiSH Max
-    - title: Embedded Systems
-      items:
-        - Arduino
-        - Raspberry Pi
-        - ESP32
-        - AVR
-    - title: Soft Skills
-      items:
-        - Teamwork
-        - Adaptability
-        - Communication
-        - Problem Solving
 
 - title: Languages
   type: map

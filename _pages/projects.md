@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /proj/
-description: A collection of my projects.
+description: A collection of my projects (will be completed).
 nav: true
 nav_order: 3
 display_categories: [2025, 2024, 2023, 2022, 2021, 2014]
