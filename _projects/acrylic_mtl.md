@@ -4,7 +4,7 @@ title: AI and Robotics in art
 description: A Journey into Developing Robotic Systems for Art Production
 img: assets/img/projects/ac1.webp
 importance: 6
-category: 2023
+category: "2023"
 ---
 
 ### Introduction
