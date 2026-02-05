@@ -125,10 +125,10 @@
       value: Pouyan Asgharian
     - name: Emails
       value: pouyan.asgharian@ieee.org
-    - name: 
-      value: pouyan.asgharian@usherbrooke.ca
+    # - name: 
+    #   value: pouyan.asgharian@usherbrooke.ca
     - name: Location
-      value: Montreal, Canada
+      value: Montréal, Canada
 
 - title: Education
   type: time_table
@@ -158,7 +158,7 @@
     - Scholarship recipient under the CoRoM program (CRSNG FONCER) (2023)
     - Winner of 2 Minutes of Engineering competition - Université de Sherbrooke (2022)
     - Awarded the Eureka Scholarship - Université de Sherbrooke (2021)
-    - Recipient of two governmental awards from Iran's National Elites Foundation(2017, 2019)
+    - Recipient of two governmental awards from Iran's National Elites Foundation (2017, 2019)
     - Co-Authored Chapter in Iran's Best Electrical Industry Book (2018)
     - Ranked in the top 3 of all M.Sc. electrical engineering students - University of Zanjan (2016)
 
@@ -173,15 +173,12 @@
         - TIAGo PAL Robotics
     - title: Programming Languages
       items:
-        - Python
-        - C++
-        - C
-        - MATLAB
+        - Python | C++ | C | MATLAB
     - title: Robotics Frameworks
       items:
         - ROS / ROS2
         - MoveIt
-        - Gazebo | MuJoCo | PyBullet | Webots | RoboDK
+        - MuJoCo | Gazebo | PyBullet | Webots | RoboDK
     - title: ML Tools & Libraries
       items:
         - PyTorch
@@ -191,6 +188,7 @@
         - Optuna
         - LangChain
         - Ollama
+        - etc.
     - title: DevOps & Tools
       items:
         - VS Code | PyCharm | Spyder
@@ -203,8 +201,8 @@
         - Simulink
         - PSCAD | PSAT | DIgSILENT
         - Fritzing | Proteus | BASCOM AVR | Codevision AVR
-        - FreeCAD, AutoCAD electrical
-        - HD 2016, HDR, SWiSH Max
+        - FreeCAD | AutoCAD electrical
+        - HD 2016 | HDR | SWiSH Max
     - title: Embedded Systems
       items:
         - Arduino
@@ -228,23 +226,23 @@
     - title: National Research Council (NRC), Canada
       year: Jan.2024-Feb.2024
       location: Montreal, Canada
-      maindescription: Part-time Volunteer Researcher
+      # maindescription: Part-time Volunteer Researcher
       description: As a part-time volunteer researcher, contributed to electronic circuit design and robotic simulation for a collaborative cobotic drilling project.
     - title: Acrylic Robotics
       year: Sept.2022-Oct.2023
       location: Montreal, Canada
       # maindescription: Part-time Volunteer Researcher
       description: Robotics engineering intern at an art-tech startup, contributing to the development and deployment of robotic systems for automated art production. Led hands-on integration and operation of Mecademic Meca500 and Kinova robotic arms, and supported live demos, exhibitions, and technical workshops.
-    - title: Noavaran Sabz Farda (NSF) company
+    - title: Noavaran Sabz Farda
       year: June 2020-Sept.2020
       location: Rasht, Iran
       # maindescription: Part-time Volunteer Researcher
-      description: I worked as an electrical engineer in the R&D department of this company, which is one of the leading manufacturers of security electric fences in Iran.
-    - title: Sayal Abzar Daghigh Mihan (SAM) company
+      description: Electrical engineer in the R&D department of an electric fence manufacturing company. Contributed to circuit design, hardware prototyping, and iterative product improvements for electronic security systems.
+    - title: Sayal Abzar Daghigh Mihan
       year: Nov.2019-June 2020
       location: Bandar Anzali
       # maindescription: Part-time Volunteer Researcher
-      description: This company manufactures devices for the electrical analysis of water quality (chlorine, PH, conductivity, etc.) and it is one of the most renowned companies in Iran. I worked as an electrical engineer in the R&D department.
+      description: Electrical engineer in the R&D team of a manufacturer of water quality analyzers. Contributed to hardware design, sensor integration, and performance optimization of analytical measurement instruments.
 
 - title: Research Experience
   type: time_table
@@ -253,22 +251,22 @@
       year: Sept.2017-Aug.2019
       location: Tehran, Iran
       maindescription: Full-Time Research Engineer
-      description: Worked full-time under a governmental research grant. The project was about proposing an optimal design for electrical circuits in ships to reduce electromagnetic noise, costs, and increase reliability.
+      description: Optimized electrical circuits for ship systems to reduce electromagnetic interference, improve reliability, and lower system costs.
     - title: Master Dissertation
       year: Sept.2014-Sept.2016
       location: Zanjan, Iran
       # maindescription: Electrical Engineer
-      description: The objective was to apply the Model Predictive Control (MPC) method to interface power electronics converters, aiming to increase efficiency and improve power quality ["Modeling and modern control of distributed generation systems based on microturbine and storage for intelligent operation of the distribution networks"].
+      description: Applied Model Predictive Control (MPC) to optimize the dynamic performance and stability of electronic converters.
     - title: Member of TOSAN Surface Vehicle group
       year: Apr.2012-Oct.2014
       location: Tabriz, Iran
       maindescription: Electrical Engineer
-      description: I contributed to the electronics and control parts of the Tosan surface vehicle, a student-based project financially supported by the university. Our efforts earned us nominations for several awards, including the admirable prize at the sixth national Harkat festival, Sharif University of Technology, Iran.
+      description: Designed electronics and control systems for a student-led unmanned surface vehicle; the project received national recognition.
     - title: Multi-output LED driver for balancing rectifier DC-link voltage
       year: Sept.2013-Sept.2014
       location: Tabriz, Iran
       # maindescription: Electrical Engineer
-      description: The objective of this project was to design a reliable multi-output circuit capable of maintaining stable voltages across all branches. The circuit achieved stability at different voltage levels on all outputs while ensuring sinusoidal currents.
+      description: Designed and simulated a multi-output LED driver ensuring stable voltage and sinusoidal current regulation.
 
 - title: Teaching Experience
   type: time_table
@@ -276,15 +274,47 @@
     - title: Lecturer, Mooj Institute of Higher Educations
       year: Sept.2018-Sept.2019
       location: Bandar Anzali, Iran
-      description: Taught undergraduate courses and labs across control systems and electronics domains. Courses Logic Electronics Lab, Electronics Lab, Industrial Control, Industrial Electronics, Power System Analysis, Single-phase and Special Purpose Motors, Electrical Machinery II
+      description: Courses; Logic Electronics Lab, Electronics Lab, Industrial Control, Industrial Electronics, Power System Analysis, Single-phase and Special Purpose Motors, Electrical Machinery II.
     - title: Teaching Assistant, University of Zanjan
       year: 2015, 2016
       location: Zanjan, Iran
-      description: Teaching assistant for undergraduate and graduate-level courses. Courses Electrical Machinery I, Power Electronics
+      description: Courses; Electrical Machinery I, Power Electronics
     - title: Robotics and Astronomy teaching at Bu-Ali Sina student research centre
       year: 2016
       location: Bandar Anzali, Iran
       # description: 
+
+
+- title: Leadership & Engagement
+  type: nested_list
+  contents:
+    - title: Science Communication
+      items:
+        - Robo Tik Podcast (2022 - Present) Host of a Persian-language podcast discussing AI and Robotics
+        - Sherbotics Podcast (2021 - 2022) Host of an English-language robotics podcast in collaboration with CFAK radio
+        - Course 'Zero to Hero of Scientific Paper Writing' in collaboration with Faranesh website (it is currently available on my YouTube channel)
+        - Founder of ElEcTic website (2014 - 2020) a Persian-language website about electronics and robotics related topics
+    - title: Academic Service
+      items:
+        - Member, IEEE Robotics and Automation Society (since 2021)
+        - Member, IEEE Computer Society (since 2024)
+        - Member, Young Researchers and Elite Club of Iran (since 2017)
+        - Student board member, HCI International Conference (2021-2022)
+        - Member, Iran Electrical Electronics Engineers Association - Gilan Branch (2018-2020)
+        - Member of IAENG (International Association of Engineers) (2018-2020)
+        - Editorial Board of American Journal of Electrical Power and Energy Systems (EPES) (2019 - 2020)
+        - Member of Iranian Solar Energy Scientific Society (2018-2019)
+        - Member of Iran's Energy Association, Gilan Branch (2016-2018)
+        - Member of reviewer committee at the second international conference on electrical engineering, Ardabil, Iran (2017)
+        - Head of Astronomy Society, Azarbaijan Shahid Madani University (2012-2013)
+        - Member of Ayaz Astronomical Society, Tabriz (2011-2015)
+        - Member of Astronomical Helix Magazine of Azarbaijan Shahid Madani University (2011-2013)
+        - Reviewer for peer-reviewed journals such as IEEE Robotics and Automation Letters (RA-L)
+    - title: Volunteer Mentorship
+      items:
+        - Université de Sherbrooke (Fall 2023, Fall 2025)
+        - Women in Machine Learning (WiML) Mentorship Program (Oct 2023 - Mar 2024)
+        - Mentspot website (2022 - present)
 
 - title: Conferences & Workshops
   type: nested_list
@@ -301,7 +331,7 @@
         - Presenter, 24th Iranian Conference on Electrical Engineering (ICEE), Shiraz (2016)
         - Presenter, International Conference on New Research Achievements in Electrical and Computer Engineering, Tehran (2016)
         - Presenter, National Astronomical Conference at Azarbaijan Shahid Madani University (2012)
-    - title: Attendance
+    - title: Attendances
       items:
         - Canadian Robotics Council (CRC) - Montreal (2023)
         - CoRoM Summer Forum - ÉTS, Montreal (2023)
@@ -313,40 +343,6 @@
         - 1st Asian Conference on Applied Electromagnetics and Wave Optics (ASEPE) - Iran (2012)
         - Workshop about Learning of new moon's observation, North Star Scientific Research Institute - Iran (2012)
         - Astrophotography workshop, Ayaz Astronomical Society - Iran (2011, 2012)
-
-- title: Leadership & Engagement
-  type: nested_list
-  contents:
-    - title: Academic Involvement & Service
-      items:
-        - Member, IEEE Robotics and Automation Society (since 2021)
-        - Member, IEEE Computer Society (since 2024)
-        - Member, Young Researchers and Elite Club of Iran (since 2017)
-        - Student board member, HCI International Conference (2021-2022)
-        - Member, Iran Electrical Electronics Engineers Association - Gilan Branch (2018-2020)
-        - Member of IAENG (International Association of Engineers) (2018-2020)
-        - Editorial Board of American Journal of Electrical Power and Energy Systems (EPES) (2019 - 2020)
-        - Member of Iranian Solar Energy Scientific Society (2018-2019)
-        - Member of Iran's Energy Association, Gilan Branch (2016-2018)
-        - Member of reviewer committee at the second international conference on electrical engineering, Ardabil, Iran (2017)
-        - Head of Astronomy Society, Azarbaijan Shahid Madani University (2012-2013)
-        - Member of Ayaz Astronomical Society, Tabriz (2011-2015)
-        - Member of Astronomical Helix Magazine of Azarbaijan Shahid Madani University (2011-2013)
-        - Reviewer for peer-reviewed journals and conferences like IEEE Robotics and Automation Letters
-    - title: Mentorship & Outreach
-      items:
-        - Volunteer mentor, Mentspot (2022-present)
-        - Student mentor, Université de Sherbrooke (Fall 2023, Fall 2025)
-        - Mentor, WiML Mentorship Program (Oct 2023-Mar 2024)
-    - title: Science Communication
-      items:
-        - Robo Tik podcast (2022-present) Host of a Persian-language podcast about AI & Robotics.
-        - Sherbotics podcast (2021-2022) Previous Host of an English-language robotics podcast in collaboration with CFAK radio.
-        - Course 'Zero to Hero of Scientific Paper Writing' in collaboration with Faranesh website (it is available on my YouTube channel)
-        - Founder of ElEcTic website (2014 - 2020) a Persian-language website on electronics and robotics topics
-    # - title: Scientific Community Engagement
-    #   items:
-
 
 - title: Certifications
   type: list_groups
