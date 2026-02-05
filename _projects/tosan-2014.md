@@ -4,7 +4,7 @@ title: Tosan Autonomous Surface Vehicle
 description: An undergraduate student project supported by university funding
 img: assets/img/projects/tosan1.png
 importance: 6
-category: "2014"
+category: "2014a"
 ---
 
 ### Quick Summary
