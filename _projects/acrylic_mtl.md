@@ -5,6 +5,7 @@ description: A Journey into Developing Robotic Systems for Art Production
 img: assets/img/projects/ac1.webp
 importance: 6
 category: "All"
+date: 2023-12-01
 ---
 
 ### Introduction

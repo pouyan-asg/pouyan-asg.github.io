@@ -5,6 +5,7 @@ description: An undergraduate student project supported by university funding
 img: assets/img/projects/tosan1.png
 importance: 6
 category: "All"
+date: 2014-06-01
 ---
 
 ### Quick Summary
