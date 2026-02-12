@@ -5,7 +5,7 @@ description: Evaluating Methods for Making Images Paintable by a Robot
 img: assets/img/projects/stroke2.png
 importance: 6
 category: "All"
-date: 2024-02-30
+date: 2024-01-30
 ---
 
 ### Summary
@@ -339,6 +339,13 @@ The *max_path* parameter directly corresponds to the number of layers (i.e., pat
   </div>
 </div>
 
+
+<video width="500" controls>
+  <source src="/assets/img/projects/live_vid1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 **Effect of schedule_each**
 
 This parameter determines how many strokes begin optimization at each layer. For example, if *schedule_each* = 3, three new strokes are initialized and optimized at each step.
@@ -358,6 +365,11 @@ Observations:
     <div class="caption">schedule_each: 10</div>
   </div>
 </div>
+
+<video width="500" controls>
+  <source src="/assets/img/projects/live_vid2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 **Effect of num_segments**
 
@@ -451,6 +463,11 @@ Scenario 1: Apple Image (Solid Background)
         {% include figure.html path="assets/img/projects/live12.png" title="env" class="img-fluid rounded z-depth-1 mx-auto d-block" width="75%" %}
     </div>
 </div>
+
+<video width="500" controls>
+  <source src="/assets/img/projects/live_vid3.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Scenario 2: Image Without Solid Background
 - Parameters: *Iterations* = 100, *max_path* = 5, *schedule* = 30
