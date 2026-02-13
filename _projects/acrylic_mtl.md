@@ -115,8 +115,16 @@ Another major development direction involved using AI methods to convert images 
   Your browser does not support the video tag.
 </video>
 
-<img src="/assets/img/projects/ac6.png" alt="Sample Image" width="500"/>
-
+<div class="row text-center">
+  <div class="col-6">
+    <img src="/assets/img/projects/ac6.png" class="img-fluid rounded" alt="Image 1">
+    <!-- <div class="caption">num_segments: 4</div> -->
+  </div>
+  <div class="col-6">
+    <img src="/assets/img/projects/ac11.jpg" class="img-fluid rounded" alt="Image 2">
+    <!-- <div class="caption">num_segments: 8</div> -->
+  </div>
+</div>
 
 During this period, we also completed several commissioned projects and collaborated with digital artists. Notable works included a Valentine’s Day piece for Kinova and a detailed portrait of the Link 6 robot. In parallel, I supervised three capstone student projects at McGill University focusing on brush switching, brush cleaning, and canvas stretching.
 
@@ -156,9 +164,9 @@ For the Meca500 robot, its extremely high precision was advantageous, but its li
 
 Finally, for AI-rendered images, a key technical challenge was synchronizing brush thickness, stroke length, and stroke curvature to accurately reflect the capabilities of the physical robot. In addition, stroke colors needed to be fully opaque, as achieving certain transparency effects is difficult in real-world painting scenarios.
 
-### Materials
+<!-- ### Materials
 
--- Will be completed!: **[PDF report](https://github.com/pouyan-asg)**.
+-- Will be completed!: **[PDF report](https://github.com/pouyan-asg)**. -->
 
 ### references
 

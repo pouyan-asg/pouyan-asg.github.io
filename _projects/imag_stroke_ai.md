@@ -10,9 +10,9 @@ date: 2024-01-30
 
 ### Summary
 
-In Winter 2024, I focused on evaluating and developing several machine learning models to convert images into stroke-based representations. This work was a continuation of my project with Acrylic Robotics, supported by the CoRoM scholarship. The objective was twofold: first, to explore how images can be made paintable by a robotic arm, and second, to investigate how consistent brush pressure on the canvas can be achieved using a feedback control system.
+In Winter 2024, I focused on evaluating and developing several machine learning models to convert images into stroke-based representations. This work was a continuation of my project with Acrylic Robotics, supported by the CoRoM scholarship. The objective was twofold: first, to explore how images can be made paintable by a robotic arm (this post), and second, to investigate how consistent brush pressure on the canvas can be achieved using a feedback control system ([link](https://www.pouyanasgharian.com/projects/cv_paint/)).
 
-As discussed in **[Link](https://www.pouyanasgharian.com/projects/acrylic_mtl/)**, one of the main challenges in robotic painting is limited precision, which led me to believe that an external control loop was necessary to manage brush–canvas interaction more effectively. In this post, I share some of my insights and preliminary results from this exploration (worked on [Painterly](https://github.com/pschaldenbrand/PyPainterly), [DiffVg](https://github.com/BachiLi/diffvg), [LIVE](https://github.com/Picsart-AI-Research/LIVE-Layerwise-Image-Vectorization) and [FRIDA](https://github.com/cmubig/Frida) methods), as I did not continue working on this project after March 2024. 
+In this post, I share some of my insights and preliminary results from the primary exploration (worked on [Painterly](https://github.com/pschaldenbrand/PyPainterly), [DiffVg](https://github.com/BachiLi/diffvg), [LIVE](https://github.com/Picsart-AI-Research/LIVE-Layerwise-Image-Vectorization) and [FRIDA](https://github.com/cmubig/Frida) methods), as I did not continue working on this project after March 2024. 
 
 ### Painterly
 
