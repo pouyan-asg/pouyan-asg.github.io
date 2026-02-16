@@ -4,7 +4,8 @@ title: concept-mod
 description: concept ablating and altering algorithms in neural networks
 img: assets/img/concepts.png
 importance: 6
-category: spring 2023
+# category: "All"
+# date: 2024-02-30
 ---
 
 Every project has a beautiful feature showcase page.
