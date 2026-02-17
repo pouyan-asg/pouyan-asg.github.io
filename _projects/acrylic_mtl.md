@@ -25,6 +25,33 @@ During this period, I worked hands-on with various robotic arms, including the M
     All robotic arms I worked with them.
 </div>
 
+### Technical Stack
+
+🔧 Key Software & Frameworks:
+- RoboDK (robot programming & offline motion planning)
+- Krita (digital art pipeline customization)
+- FreeCAD
+- Python libraries and tools
+
+🤖 Robotic arm platforms:
+- Mecademic Meca500
+- Kinova Gen3
+- Kinova Gen3 Lite
+- Kinova Link 6
+
+🧠 Methods & Algorithms:
+- Robot control (high-level & low-level) 
+- Robot motion planning & trajectory optimization
+- Kinematics & singularity handling strategies
+- Force / pressure-aware painting control
+- Robot tool & brush calibration methods
+- AI-based stroke generation & vectorized painting (DiffVG-based pipeline collaboration)
+- Image-to-stroke rendering workflows
+
+💻 Languages:
+- Python
+- C++
+
 ### phase 1
 
 The first step was to refine and stabilize all painting functions developed for small-format artworks using the Meca500 robot. These functions were then transferred to larger robotic platforms, first the Kinova Gen3 Lite and later the Kinova Gen3. This transfer was not straightforward, as the precision, repeatability, and kinematic characteristics of these robotic arms differ significantly. In addition, I had to address singularities at the low-level control layer and develop new approaches for painting brush calibration.

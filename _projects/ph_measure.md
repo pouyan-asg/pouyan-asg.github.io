@@ -28,6 +28,32 @@ The success criteria included:
 
 This proof-of-concept aimed to demonstrate the feasibility, reliability, and practical value of robotic automation in real laboratory settings.
 
+### Technical Stack
+
+🔧 Key Software & Frameworks:
+- ROS Noetic
+- MoveIt
+- OMPL (Open Motion Planning Library)
+- Gazebo simulator
+- PyBullet simulator
+- Qt
+- TULIP
+- FreeCAD
+
+🤖 Robotic arm platforms:
+- Mecademic Meca500
+
+🧠 Methods & Algorithms:
+- Robot control 
+- Motion planning & collision avoidance
+- Circuite design
+- Mechanical design
+- Vision-guided pick-and-place (simulation phase)
+
+💻 Languages:
+- Python
+- C++
+
 ### Concept
 
 A pH value is a numerical indicator—typically ranging from 0 to 14 that represents the acidity or basicity of a solution. It is directly related to the hydrogen ion (H⁺) concentration and is defined by the formula: *pH=−log(H+)*. As the hydrogen ion concentration decreases, the pH value increases, and vice versa.
@@ -67,17 +93,18 @@ The first phase of the project involved simulation studies in PyBullet and Gazeb
 The Open Motion Planning Library (OMPL) was used as the motion planner within a ROS Noetic framework, operating in Cartesian space to ensure smooth and collision-aware trajectory execution.
 
 <video width="500" controls>
-  <source src="/assets/img/projects/ph_vid1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video width="500" controls>
   <source src="/assets/img/projects/ph_vid2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <video width="500" controls>
-  <source src="/assets/img/projects/ph_vid3.mp4" type="video/mp4">
+  <source src="/assets/img/projects/ph_vid1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+<!-- <video width="500" controls>
+  <source src="/assets/img/projects/ph_vid3.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> -->
 
 ### Real Test
 
@@ -156,5 +183,9 @@ I am aware that fully automated laboratory measurement systems already exist, as
 In contrast, a properly designed robotic-arm-based platform offers greater flexibility. With modular tooling and appropriate workflow design, the same robotic system can potentially handle multiple laboratory tasks—ranging from pH measurement to osmolality testing and beyond—while maintaining adaptability and cost efficiency.
 
 <a href="/assets/img/projects/References_pH_measurement_systems.pdf" target="_blank">Download the PDF</a>
+
+### GitHub
+
+To access the source code, please follow this [Link].
 
 

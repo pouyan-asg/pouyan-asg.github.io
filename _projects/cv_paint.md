@@ -16,6 +16,29 @@ As discussed in **[Link](https://www.pouyanasgharian.com/projects/acrylic_mtl/)*
 
 I explored the possibility of combining computer vision with a laser-based distance sensor. A camera-based system can provide detailed spatial information, while laser-based sensors can offer robustness under varying environmental conditions. The goal was to investigate whether integrating these modalities could enable more reliable brush–canvas interaction control. In the following sections, I present the hardware setup and some initial computer vision results from this exploratory study.
 
+### Technical Stack
+
+🔧 Key Software & Frameworks:
+- OpenCV (real-time image & video processing)
+- Segment Anything Model (SAM)
+- SparkFun VL53L4CD ToF distance sensor
+- Arduino / SparkFun RedBoard platform
+- HAAR Cascade training tools (OpenCV)
+
+🧠 Methods & Algorithms:
+- Real-time vision-based measurement pipeline
+- Color detection & contour extraction
+- Edge detection (Canny)
+- Image thresholding techniques
+- HAAR cascade object detection
+- Pixel-to-metric calibration & geometric measurement
+- Sensor calibration & offset correction
+- Sensor–vision fusion concepts
+
+💻 Languages:
+- Python
+- C++
+
 ### Time-of-Flight (ToF) sensor
 
 Since I required an affordable range-finder sensor, I selected the SparkFun Distance Sensor **VL53L4CD**, which offers a good balance between cost and accuracy. The sensor can be purchased directly from the SparkFun website. A SparkFun RedBoard Plus, which is similar to an Arduino Uno, was used to control the sensor.

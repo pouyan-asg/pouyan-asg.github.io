@@ -14,6 +14,27 @@ In Winter 2024, I focused on evaluating and developing several machine learning 
 
 In this post, I share some of my insights and preliminary results from the primary exploration (worked on [Painterly](https://github.com/pschaldenbrand/PyPainterly), [DiffVg](https://github.com/BachiLi/diffvg), [LIVE](https://github.com/Picsart-AI-Research/LIVE-Layerwise-Image-Vectorization) and [FRIDA](https://github.com/cmubig/Frida) methods), as I did not continue working on this project after March 2024. 
 
+### Technical Stack
+
+🔧 Key Software & Frameworks:
+- PyPainterly (painterly rendering)
+- DiffVG (differentiable vector graphics)
+- LIVE — Layer-wise Image Vectorization
+- FRIDA robot painting framework
+- SVG vector graphics pipelines
+
+🤖 Robotic arm platforms:
+- Mecademic Meca500
+
+🧠 Methods & Algorithms:
+- Image-to-stroke conversion with ML models
+- Differentiable rendering & rasterization
+- Vector graphics optimization with Bézier curves
+- Stroke-based painterly rendering
+
+💻 Languages:
+- Python
+
 ### Painterly
 
 A Python implementation of Aaron Hertzmann’s Painterly rendering algorithm for stroke-based image generation is available [this repository](https://github.com/pschaldenbrand/PyPainterly). The figure below illustrates the architecture of the main code modules in the GitHub repository. The input variables are input image path, radii, output saving path, threshold of similarity, straight or curved lines, spacing between strokes, and debugging. 
