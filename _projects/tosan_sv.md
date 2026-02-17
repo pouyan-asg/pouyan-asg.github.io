@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tosan Autonomous Surface Vehicle
+title: Tosan Surface Vehicle
 description: An undergraduate student project supported by university funding
 img: assets/img/projects/tosan1.png
 importance: 6
