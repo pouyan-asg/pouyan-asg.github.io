@@ -88,16 +88,20 @@ Due to its high accuracy, relatively affordable cost, and compact footprint, the
 
 ### Simulation
 
-The first phase of the project involved simulation studies in PyBullet and Gazebo to demonstrate core system capabilities. The initial tests focused on pick-and-place tasks, integrating motion planning with computer vision.
+The first phase of the project involved simulation studies in PyBullet and Gazebo to demonstrate the core capabilities of the system. The initial experiments focused on pick-and-place tasks, integrating motion planning with computer vision. The Open Motion Planning Library (OMPL) was used as the motion planner within a ROS Noetic framework, operating in Cartesian space to ensure smooth, precise, and collision-aware trajectory execution.
 
-The Open Motion Planning Library (OMPL) was used as the motion planner within a ROS Noetic framework, operating in Cartesian space to ensure smooth and collision-aware trajectory execution.
+The following video presents a compilation of demonstrations, including Gazebo simulations with ROS, PyBullet simulations, real motion planning tests with ROS, early GUI designs developed using TULIP and Qt, and computer vision experiments visualized in RViz and Gazebo.
 
-<video width="500" controls>
+<!-- <video width="500" controls>
   <source src="/assets/img/projects/ph_vid2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <video width="500" controls>
   <source src="/assets/img/projects/ph_vid1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> -->
+<video width="500" controls>
+  <source src="/assets/img/projects/ph_vid9.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

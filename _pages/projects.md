@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /proj/
-description: A collection of my projects (will be completed).
+description: A collection of my projects that are not subject to NDA restrictions (updates in progress)
 nav: true
 nav_order: 3
 display_categories: ["All"]
