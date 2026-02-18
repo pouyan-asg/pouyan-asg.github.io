@@ -4,7 +4,7 @@ title: Series-Parallel Auto-Regulated Rectifier circuit
 description: Simulation of an LED Driver in MATLAB Simulink
 img: assets/img/projects/led1.png
 importance: 6
-category: "All"
+category: ""
 date: 2015-06-29
 ---
 

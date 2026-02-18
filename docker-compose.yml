@@ -1,10 +1,25 @@
+# version: "3"
+# # this file uses prebuilt image in dockerhub
+# services:
+#   jekyll:
+#     image: amirpourmand/al-folio:latest
+#     build: .
+#     ports:
+#       - 8080:8080
+#     volumes:
+#       - .:/srv/jekyll
+
+
 version: "3"
-# this file uses prebuilt image in dockerhub
 services:
   jekyll:
-    image: amirpourmand/al-folio:latest
+    # Remove the 'image' line so it focuses ONLY on your local build
     build: .
     ports:
-      - 8080:8080
+      - "4000:4000" # Standard Jekyll port
     volumes:
       - .:/srv/jekyll
+      - /srv/jekyll/_site # Prevents permission issues with the generated site
+    environment:
+      - JEKYLL_ENV=development
+    command: bundle exec jekyll serve --host 0.0.0.0 --livereload
