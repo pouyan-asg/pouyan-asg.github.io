@@ -4,7 +4,7 @@ title: Model Predictive Control for Intelligent Operation
 description: Applying MPC Method for Robust Control of a DG System
 img: assets/img/projects/mpc2.png
 importance: 6
-category: ""
+category: "All"
 date: 2016-09-29
 ---
 
