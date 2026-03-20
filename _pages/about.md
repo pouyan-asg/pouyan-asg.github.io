@@ -17,9 +17,7 @@ selected_papers: True # includes a list of papers marked as "selected={true}"
 social: True  # includes social icons at the bottom of the page
 ---
 
-Pouyan Asgharian is a Ph.D. Candidate in Robotics at Université de Sherbrooke (UdeS), based in Montréal. His core research focuses on designing and implementing intuitive robot learning systems, bridging the gap between theoretical models and real-world deployment. He specializes in integrating components like robotic arms, computer vision, and human-in-the-loop control to create safer, more adaptable automation solutions.
+Pouyan Asgharian is a robotics developer based in Montréal, specializing in automation, control, and applied machine learning. He focuses on building end-to-end robotic solutions by integrating robotic manipulators, computer vision, and human-in-the-loop control to deliver reliable, scalable, and production-ready systems. His work emphasizes translating complex algorithms into practical applications, with experience in system integration, motion planning, and real-world deployment of robotic workflows.
 
-Pouyan's expertise lies in automation, robot learning, and control, with practical application demonstrated through a collaboration with Pfizer Canada to integrate AI-driven learning methods for automating complex laboratory workflows. Beyond his academic and industrial work, Pouyan actively builds his brand through thought leadership as the host of the Persian-language podcast, Robo Tik, sharing insights on the latest trends in AI and Robotics.
-
-Driven by a passion for continuous engagement, he actively contributes to the community through various mentorship experiences, participation in numerous conferences, summer schools, and events, and by sharing personal perspectives on his blog. For a complete overview of the resume, please refer to the CV tab.
+In addition to his technical work, Pouyan shares insights on AI and robotics as the host of the Persian-language podcast RoboTik. Driven by a passion for continuous learning and engagement, he contributes to the community through mentorship, participation in conferences, summer schools, and technical events, as well as by sharing his perspectives on his blog. For a complete overview of his experience, please refer to the CV section.
 
