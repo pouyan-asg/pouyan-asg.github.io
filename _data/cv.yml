@@ -133,7 +133,7 @@
 - title: Education
   type: time_table
   contents:
-    - year: 2021
+    - year: 2021 - 2026
       title: PhD candidate in Robotics
       institution: Université de Sherbrooke
       location: Sherbrooke, Canada
@@ -165,12 +165,13 @@
 - title: Skills
   type: nested_list
   contents:
-    - title: Robotic Platforms
-      items:
-        - Mecademic Meca500
-        - Kinova (Gen3, Gen3 lite, Link6)
-        - Universal Robots UR5
-        - TIAGo PAL Robotics
+    # - title: Robotic Platforms
+    #   items:
+    #     - Mecademic Meca500
+    #     - Kinova (Gen3, Gen3 lite, Link6)
+    #     - Universal Robots UR5e
+    #     - Franka Emika 
+    #     - TIAGo PAL Robotics
     - title: Programming Languages
       items:
         - Python | C++ | C | MATLAB
@@ -218,16 +219,16 @@
 - title: Professional Experience
   type: time_table
   contents:
+    - title: Haply Robotics
+      year: May 2026-present
+      location: Montreal, Canada
+      # maindescription: Part-time Volunteer Researcher
+      description: Working on the HARP software.
     - title: Pfizer
-      year: April 2024-present
+      year: Apr. 2024-Mar. 2026
       location: Montreal, Canada
       # maindescription: Part-time Volunteer Researcher
-      description: Developing an automated laboratory workflow using the Mecademic Meca500 robotic arm, with a focus on reducing task-specific hard coding. Designed a human-in-the-loop robotic system combining vision language models (VLMs) and interactive imitation learning to enable intuitive teaching and adaptation of lab processes.
-    - title: National Research Council (NRC), Canada
-      year: Jan.2024-Feb.2024
-      location: Montreal, Canada
-      # maindescription: Part-time Volunteer Researcher
-      description: As a part-time volunteer researcher, contributed to electronic circuit design and robotic simulation for a collaborative cobotic drilling project.
+      description: Developed an automated laboratory workflow using the Mecademic Meca500 robotic arm, with a focus on reducing task-specific hard coding. Designed a human-in-the-loop robotic system combining vision language models (VLMs) and interactive imitation learning to enable intuitive teaching and adaptation of lab processes.
     - title: Acrylic Robotics
       year: Sept.2022-Oct.2023
       location: Montreal, Canada
@@ -247,6 +248,11 @@
 - title: Research Experience
   type: time_table
   contents:
+    - title: National Research Council (NRC), Canada
+      year: Jan.2024-Feb.2024
+      location: Montreal, Canada
+      maindescription: Part-time Volunteer Researcher
+      description: Contributed to electronic circuit design and robotic simulation for a collaborative cobotic drilling project.
     - title: Iran National Elites Foundation
       year: Sept.2017-Aug.2019
       location: Tehran, Iran
@@ -290,7 +296,7 @@
   contents:
     - title: Science Communication
       items:
-        - Robo Tik Podcast (2022 - Present) Host of a Persian-language podcast discussing AI and Robotics
+        - Robo Tik Podcast (2022 - 2025) Host of a Persian-language podcast discussing AI and Robotics
         - Sherbotics Podcast (2021 - 2022) Host of an English-language robotics podcast in collaboration with CFAK radio
         - Course 'Zero to Hero of Scientific Paper Writing' in collaboration with Faranesh website (it is currently available on my YouTube channel)
         - Founder of ElEcTic website (2014 - 2020) a Persian-language website about electronics and robotics related topics
@@ -312,7 +318,7 @@
         - Reviewer for peer-reviewed journals such as IEEE Robotics and Automation Letters (RA-L)
     - title: Volunteer Mentorship
       items:
-        - African Institute for Mathematical Sciences (AIMS) (2026)
+        - African Institute for Mathematical Sciences (AIMS) (Fall 2025, Winter 2026)
         - Université de Sherbrooke (Fall 2023, Fall 2025)
         - Women in Machine Learning (WiML) Mentorship Program (Oct 2023 - Mar 2024)
         - Mentspot website (2022 - present)
@@ -485,17 +491,17 @@
     - name: French
       value: B1 (TEFAQ)
 
-- title: References
-  type: time_table
-  contents:
-    - year: 
-      title: François Ferland
-      institution: Department of Electrical and Computer Engineering, Université de Sherbrooke
-      department: francois.ferland@usherbrooke.ca
-    - year: 
-      title: Reza Noroozian
-      institution: Department of Electrical and Computer Engineering, University of Zanjan
-      department: noroozian@znu.ac.ir
+# - title: References
+#   type: time_table
+#   contents:
+#     - year: 
+#       title: François Ferland
+#       institution: Department of Electrical and Computer Engineering, Université de Sherbrooke
+#       department: francois.ferland@usherbrooke.ca
+#     - year: 
+#       title: Reza Noroozian
+#       institution: Department of Electrical and Computer Engineering, University of Zanjan
+#       department: noroozian@znu.ac.ir
     # - year: 
     #   title: Mohamad Reza Banaei
     #   institution: Department of Electrical and Computer Engineering, Azarbaijan Shahid Madani University
