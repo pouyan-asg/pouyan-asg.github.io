@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Robotic Engineer
+subtitle: Roboticist
 
 profile:
   align: right
@@ -17,7 +17,7 @@ selected_papers: True # includes a list of papers marked as "selected={true}"
 social: True  # includes social icons at the bottom of the page
 ---
 
-Pouyan Asgharian is a robotics developer based in Montréal, specializing in automation, control, and applied machine learning. He focuses on building end-to-end robotic solutions by integrating robotic manipulators, computer vision, and human-in-the-loop control to deliver reliable, scalable, and production-ready systems. His work emphasizes translating complex algorithms into practical applications, with experience in system integration, motion planning, and real-world deployment of robotic workflows.
+Pouyan Asgharian is a robotics developer based in Montréal, Canada, with experience in robotic manipulation, control systems, and automation. He focuses on developing and integrating robotic solutions that combine software, hardware, and intelligent control to address real-world challenges. His expertise spans robotics software development, motion planning, system integration, and human-robot interaction, complemented by a background in computer vision and applied machine learning. His work emphasizes bridging the gap between research and practical applications by building reliable, efficient, and user-oriented robotic systems.
 
-In addition to his technical work, Pouyan shares insights on AI and robotics as the host of the Persian-language podcast RoboTik. Driven by a passion for continuous learning and engagement, he contributes to the community through mentorship, participation in conferences, summer schools, and technical events. For a complete overview of his experience, please refer to the CV section.
+Beyond his technical work, Pouyan has shared his interest in AI and robotics through *RoboTik*, a Persian-language podcast exploring developments in these fields. He is also passionate about knowledge sharing, mentorship, and continuous learning, with experience participating in conferences, technical events, and collaborative initiatives. For a more detailed overview of his background and experience, please visit the CV section.
 

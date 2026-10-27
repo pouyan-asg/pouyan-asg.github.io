@@ -133,7 +133,7 @@
 - title: Education
   type: time_table
   contents:
-    - year: 2021 - 2026
+    - year: 2021-2026
       title: PhD candidate in Robotics
       institution: Université de Sherbrooke
       location: Sherbrooke, Canada
